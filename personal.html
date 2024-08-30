@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>For Mbali's eyes ONLY</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  
+  <script>
+    let text = "Yaz, mngani, lento iyang'sinda so let me just tell you.\n\n\nTruth is, friend, I think I\'ve reached a point that I didn\'t wanna reach \'cause I knew it was gonna complicate stuff and if I had it my way, I\'d try push away from it, but ke, it is what it is. Part of being a friend is being honest.\n\n Mbali, mina I wanna be with you. \n I can already picture the shock on your face ukuthi \"Mara, uNjabulo uphethe yiphi ke manje\", but it is true.\n\n I\'m so attached to you and it feels natural. I\'m happy around you, and I don\'t wanna sound all lovey-dovey, but you are the first thing I think of when I wake up and the last thing when I go to sleep. I am just a better person around you, and it is always a pleasure talking to you and spending time with you. You understand me, and I have never had to pretend kuwe, you let me be me, and you always happy for me. You care, and you are stern when you need to be, and I have always appreciated you for not being hollow, but actually, being there in every sense for me. \n\n Of course, like we\'ve spoken, mjolo tends to destroy friendships, that we\'re just fine, we should not ruin it because many people don\'t have friends like we have in one another, and I agree with that, but as iskhathi samba, I\'m realizing ukuthi it\'s getting problematic being your best friend while at the same time, suppressing myself, because I can\'t shake off the thought that I\'m just going to be an overall worse person without you. It is hitting me ukuthi I want you around and the older we grow, just being best friends sort of puts us in a situation where there are much more important people to us than you to me and vice versa, and mina, I don\'t want that. Honestly, I don\'t want a life without you. \nSee, on one hand, I wanna listen to you as just your friend, but it gets to a point where I base my opinions on the bias that I feel strong about you. It's like lendaba kaDeviano, I feel like as much as he is what he is, my biggest influence in how I saw him was the fact that I did not think he deserved you because he did not appreciate you. I would also feel sorry for myself becoz ngibona ukuthi it\'s getting closer to that time where we can\'t be as close anymore.\n\n It\'s funny, because on one hand, 10 years from now, I know I\'mma be so happy for you when you find someone for yourself ok\'thandayo, who you feel is perfect for wena, someone you'd settle down with, but on the other hand, it would be bittersweet cause I know with you, I know I\'d always be happy and with ama challenges azoba khona, we\'d find a way, no matter how hard it would be, I know angeke ung\'phelele inhliziyo, and nami I wouldn\'t do the same. You\'d also be my friend, it wouldn\'t be indaba yokuthi I NEED TO BE WITH SOMEONE, but indaba yokuthi I WANT TO BE WITH YOU. \n\nThere\'s so much I can say, but bottom line is, mina ngyak\'thanda Mbali, as a friend, as a person, as everything. I hate to do this during a time where you wanna focus on yourself and trying to build yourself and move on from a deep relationship like one you had with Siya, and to be honest, of all the people in the world, I should understand that and not be putting such pressure kuwe, but it is starting to feel dishonest feeling this way without telling you. I feel like a liar because I say stuff like I love you, knowing very well ukuthi I do not only mean it as friends, but more than that. There are times I say stuff with double meaning because I would be scared how you\'d react if you knew I feel this way. \n\n It is hitting me ukuthi we cannot be friends anymore (at least the way we have been). I really wish you see my vision here, I really love having you in my world, and I wanna keep this way, I don\'t wanna live in this countdown like our friendship is ticking away. It also comes down to the fact that if you don\'t want to be with me in this way (which is totally understandable), being this close sorta becomes detrimental because I won\'t lie, I have been actively trying to keep calm and hope that I dont sink deeper, but like I said kuwe, you are such an adorable person in every sense, I don\'t see how I am supposed to convince myself that this is just a phase when it is getting so bad. Sometimes, I unlock my phone multiple times ukuthi maybe awukafounanga while I\'m sleeping or studying. Sometimes, I\'d wanna call you but I would\'t want to disturb you cause I know if you can, you will always make time for me. These days, I have started to punish myself by putting 2 hours timers before I call you because I don\'t wanna be like this, only for the reality being that we just gonna be friends. It is not healthy in a long run. \n\n You might be wondering why I decided to even create a website just for this, and mainly, I have been finding it hard to even talking about this cause I feel like ngiyamosha, but it is necessary. Gwababa might also be a factor, but honestly, nje, I don\'t want to make you make decisions on this, but again, it is necessary. And secondly, I have so much more in my mind to say ok'dlula lokhu. In simple terms, for as important you are to me, this is big.\n\n One time, I told you that I wanted to learn to be better at doing things that would make me happy instead of uk'fela ngaphakathi and a big step to that, after actively push certain people out of my life, is being brave enough to admit that staying content with us just being fine is not gonna work. You such a good friend, that is why I told you that this is not your fault.\n\n I just don\'t wanna regret myself one day ukuthi why I never told you how I actually felt, because I care about you, Mbali, and I want a world with you. \n\n\n";
+
+    function main() {
+      alert("WARNING: Spelling error galore");
+      alert("ANOTHER WARNING: You need to sit down for this one coz yoh...");
+      alert("LAST WARNING: This was written at 3am, so yah, I was kinda sleepless and stuff, you know the vibes haha...")
+
+      // Update header text
+      document.getElementsByTagName("h1")[0].innerHTML = "Dear Mbali...";
+
+      // Text animation
+      let main = document.getElementsByClassName("dashboard-content")[0];
+      main.innerHTML = "";
+      let index = 0;
+
+      function typeText() {
+        if (index < text.length) {
+          
+          main.innerHTML += text[index++];
+          setTimeout(typeText, 50);
+        }
+      }
+      typeText();
+    }
+      
+  </script>
+  <style>
+    body {
+      font-family: cursive;
+      background-color: #f8f6f6;
+      color: #201f1f;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .main-container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard-content {
+      white-space: pre-wrap; /* Preserve whitespace and line breaks */
+      margin-top: 20px;
+    }
+    .bottom{
+        margin-top: 100px;
+        min-height: 1rem;
+        background-color: red;
+    }
+  </style>
+</head>
+
+<body onload="main();">
+
+  <div class="header">
+  </div>
+
+  <div class="main-container">
+    <div class="dashboard-container">
+      <div class="dashboard-header">
+        <h1></h1>
+      </div>
+
+      <div class="dashboard-content">
+      </div>
+      
+  </div>
+  <div class="bottom"></div>
+    </div>
+</body>
+
+</html>
